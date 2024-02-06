@@ -1,68 +1,67 @@
-/* This standardizes the dimensions of all elements */ 
+/* This standardizes the dimensions of all elements */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    font-family:"Saira Semi Condensed";   
-    background-color: #F1F1F1;    
+body {
+  font-family: "Saira Semi Condensed";
+  background-color: #f1f1f1;
 }
 
 header {
-    padding: 10px;
-    text-align: center;
-    font-size: x-large;
-    background-color: lightslategray;    
+  padding: 10px;
+  text-align: center;
+  font-size: x-large;
+  background-color: lightslategray;
 }
 
 ul.general {
-    list-style: none;
-    padding-left: 0;    
-    text-align: left;    
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
 }
 ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;    
-    background-color: rgb(12, 15, 17);   
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(12, 15, 17);
 }
 
 li.horizontal {
-    display: inline;
-    font-size: large;
-    text-align: center;     
+  display: inline;
+  font-size: large;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: whitesmoke;    
-    margin: 20px;
-    padding: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 20px;
+  padding: 10px;
 }
 
 td {
-    padding: 10px;
-    padding-left: 0;
+  padding: 10px;
+  padding-left: 0;
 }
 
 td.year {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 
 /* This will prevent elements from overflowing if they are larger than the container*/
 .clearfix {
-    overflow: auto;
+  overflow: auto;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 25%;
   background-color: rgb(153, 160, 168);
-  
+
   padding-left: 25px;
-  
 }
 
 /* Right column */
@@ -71,11 +70,11 @@ td.year {
   width: 75%;
   background-color: rgb(171, 182, 193);
   padding-left: 50px;
+  padding-bottom: 61px;
 }
 
 #skills {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;    
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
 }
-
