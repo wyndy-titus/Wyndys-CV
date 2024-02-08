@@ -1,25 +1,32 @@
-/* This standardizes the dimensions of all elements */
+.header-container {
+  margin: 0;
+  max-width: 1920px;
+  background-color: lightslategray;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+
+#myname {
+  display: inline-block;
+  font-family: "Delius", sans-serif;
+  font-size: 50px;
+  vertical-align: middle;
+  padding: 10px;
+  position: relative;
+}
+
+#myname + img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 192px;
+  padding: 10px;
+  margin-right: 50px;
+}
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Saira Semi Condensed";
-  background-color: #f1f1f1;
-}
-
-header {
-  padding: 10px;
-  text-align: center;
-  font-size: x-large;
-  background-color: lightslategray;
-}
-
-ul.general {
-  list-style: none;
-  padding-left: 0;
-  text-align: left;
-}
 ul.navbar {
   list-style-type: none;
   margin: 0;
@@ -27,54 +34,43 @@ ul.navbar {
   background-color: rgb(12, 15, 17);
 }
 
-li.horizontal {
+ul.navbar li {
   display: inline;
-  font-size: large;
+  margin: 15px;
+  padding: 10px;
   text-align: center;
 }
 
-a {
+ul.navbar li a {
   text-decoration: none;
   color: whitesmoke;
-  margin: 20px;
-  padding: 10px;
+  text-align: center;
 }
 
-td {
-  padding: 10px;
-  padding-left: 0;
-}
-
-td.year {
-  padding-left: 100px;
-}
-
-/* This will prevent elements from overflowing if they are larger than the container*/
-.clearfix {
-  overflow: auto;
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #f1f1f1;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
   float: left;
+  padding: 25px;
   width: 25%;
+  height: 100%;
   background-color: rgb(153, 160, 168);
-
-  padding-left: 25px;
 }
 
 /* Right column */
 .rightcolumn {
-  float: left;
   width: 75%;
   background-color: rgb(171, 182, 193);
   padding-left: 50px;
-  padding-bottom: 61px;
 }
 
-#skills {
+.general li {
   list-style-type: none;
-  margin: 0;
-  padding: 10px;
+  padding-left: 0;
+  text-align: left;
 }
