@@ -1,76 +1,162 @@
-.header-container {
-  margin: 0;
-  max-width: 1920px;
-  background-color: lightslategray;
-  vertical-align: middle;
-  text-align: center;
-  position: relative;
-}
-
-#myname {
-  display: inline-block;
-  font-family: "Delius", sans-serif;
-  font-size: 50px;
-  vertical-align: middle;
-  padding: 10px;
-  position: relative;
-}
-
-#myname + img {
-  display: inline-block;
-  vertical-align: middle;
-  width: 192px;
-  padding: 10px;
-  margin-right: 50px;
-}
 * {
   box-sizing: border-box;
 }
 
-ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  background-color: rgb(12, 15, 17);
-}
-
-ul.navbar li {
-  display: inline;
-  margin: 15px;
-  padding: 10px;
-  text-align: center;
-}
-
-ul.navbar li a {
-  text-decoration: none;
-  color: whitesmoke;
-  text-align: center;
-}
-
-body {
-  font-family: "Chakra Petch", sans-serif;
-  background-color: #f1f1f1;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  padding: 25px;
-  width: 25%;
-  height: 100%;
-  background-color: rgb(153, 160, 168);
-}
-
-/* Right column */
-.rightcolumn {
-  width: 75%;
-  background-color: rgb(171, 182, 193);
-  padding-left: 50px;
-}
-
-.general li {
-  list-style-type: none;
-  padding-left: 0;
+.header-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
   text-align: left;
+  color: seashell;
+  background: #5388ae;
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+  column-span: all;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.header-container div nav {
+  display: inline-block;
+  margin: 25px;
+  width: auto;
+  height: 420px;
+  text-align: left;
+}
+
+img[src$="nimation.gif"] {
+  width: auto;
+  height: 120px;
+  margin: 25px 25px;
+}
+
+img[src$="2023.jpg"] {
+  width: auto;
+  height: 270px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  text-align: right;
+  border-radius: 15px;
+}
+
+#name {
+  padding-left: 25px;
+  text-shadow: 4px 4px 8px #000000;
+  font-size: 60px;
+  font-family: "Coming Soon", sans-serif;
+  line-height: 60%;
+}
+
+#subname {
+  font-size: 16px;
+  font-family: "Chakra Petch", sans-serif;
+  padding-left: 100px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+  line-height: 200%;
+}
+
+.header-container blockquote {
+  margin: 70px 100px;
+  border: rgb(85, 98, 110) 10px outset;
+  background-color: rgba(74, 102, 121, 0.7);
+  font-size: 18px;
+  font-family: "Chakra Petch", sans-serif;
+  text-align: left;
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 120%;
+}
+
+/* Navigation bar */
+
+.main-nav ul {
+  list-style-type: none;
+}
+
+.main-nav li {
+  margin: 10px;
+  padding: 10px;
+  background-color: #4a6679;
+  border-radius: 15px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 40px 25px 0px 0px;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+/* Main content - multicolumn layout */
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  background-color: #3e7aa1;
+  padding: 15px;
+}
+
+.left-main {
+  display: table;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+td {
+  display: table-cell;
+  padding: 15px;
+}
+
+.main-container h2 {
+  text-indent: 15px;
+}
+
+.right-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 60px;
+  padding-top: 30px;
+  padding-left: 35px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+.right-main img {
+  margin: 0;
+  width: 35%;
+  height: 35%;
+}
+
+.projects ul {
+  display: inline-block;
+  text-indent: -1.5em;
+  list-style-type: none;
+}
+
+.bottom-right figure {
+  width: 80%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #5388ae;
+  color: white;
+  font-size: 20px;
+  font-family: "Chakra Petch", sans-serif;
 }
