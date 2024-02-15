@@ -1,128 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wyndy's CV</title>
-    <link rel="icon" type="image/x-icon" href="./images/myfavicon.png">
+    <link rel="icon" type="image/x-icon" href="./images/myfavicon.png" />
     <!--The following links are included for web-based fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Coming+Soon&
-    family=Delius&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Coming+Soon&
+            family=Delius&family=Saira+Semi+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <!--The following links are included for CSS files-->
     <!--<link rel="stylesheet" href="./css/normalize.css" type="text/css"/>-->
-    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
-</head>
-
-<body>
-    <header id="page-header">
-        <div class="header-container">
-            <h2 id="myname">Wyndy Titus</h2>
-            <p><abbr>DUD</abbr> &#8594; Developer Under Development</p>
-            <img src="./images/2023.jpg"/>
-        </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="https://maps.app.goo.gl/8Rgq27jQgbAoQCDm8">&#127968; Wichita, KS, US</a></li>
-                <li><a href="">&#128232; myemail@gmail.com</a></li>
-                <li><a href="https://youtu.be/AKsp6l4MSa0?si=3oR-fOxHwY3GDJ-X">&#128383; +1 316 555 5555</a></li>
-                <li><a href="https://github.com/wyndy-titus">&#128187; GitHub</a></li>
-            </ul>
-        </nav>
+    <!--<link rel="stylesheet" href="./css/reset.css" type="text/css" />-->
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <div>
+        <img src="./images/Command_Prompt_Animation.gif" alt="cmd prompt gif" />
+        <h1 id="name">Wyndy Titus</h1>
+        <h2 id="subname">
+          Developer Under Development
+          <span style="font-size: 40px">&#128679;</span>
+        </h2>
+      </div>
+      <div>
+        <img src="./images/2023.jpg" alt="profile picture" />
+      </div>
+      <div>
+        <blockquote>
+          "If brute force doesn't solve your problems, then you aren't using
+          enough."
+          <p>
+            <i><sub>Linus Torvalds, LINUX guy</sub></i>
+          </p>
+        </blockquote>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="https://maps.app.goo.gl/8Rgq27jQgbAoQCDm8"
+              >&#127968; Wichita, KS, US</a
+            >
+          </li>
+          <li><a href="">&#128232; myemail@gmail.com</a></li>
+          <li>
+            <a href="https://youtu.be/AKsp6l4MSa0?si=3oR-fOxHwY3GDJ-X"
+              >&#128383; +1 316 555 5555</a
+            >
+          </li>
+          <li><a href="https://github.com/wyndy-titus">&#128187; GitHub</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="main-container">
-            <div id="lefty">
-                <section class="about-frontend">
-                    <h2>Hello World!</h2>
-                    <p><i>Currently studying front-end development</i></p>
-                    <label for="study">Course progress:</label>
-                    <meter id="study" value="13" min="0" max="55">23.6%</meter>
-                </section>
-                <section class="about-self">
-                    <p>Let me introduce myself through this page &#128522</p>
-                    <h3>Skills</h3>
-                    <ul id="skills">
-                        <li>Client relationship building</li>
-                        <li>Large scale project planning</li>
-                        <li>Workflow coordination</li>
-                        <li>Social media management</li>
-                        <li>Multilingual - English and Swedish</li>
-                    </ul>
-                    <hr>
-                    <h3>Achievements</h3>
-                    <dl id="achievements">
-                        <dt>Upptech Framtiden Scholarship Recipient</dt>
-                        <dd>2023 - Bredband2 and Beetroot Academy</dd>
-                        <dt>Dean's Honor Roll in Engineering</dt>
-                        <dd>2013 - Wichita State University</dd>
-                        <dt>Kansas IDeA Network of Biomedical Research Excellence Scholar</dt>
-                        <dd>2013 - Wichita State University</dd>
-                    </dl>
-                </section>
-            </div>
-            <div id="righty">
-                <section class="work-xp">
-                    <table class="work">
-                        <h2>Work Experience</h2>
-                        <tbody>
-                            <tr>
-                                <td>Fiber technician <br> Westman Titus Entreprenad AB </td>
-                                <td class="year">August 2019 - Present</td>
-                            </tr>
-                            <tr>
-                                <td>Personal Assistant <br> Säters Kommun</td>
-                                <td class="year">June 2018 - August 2019</td>
-                            </tr>
-                            <tr>
-                                <td>Logistics Team Member <br> Target Corporation</td>
-                                <td class="year">October 2017 - April 2018</td>
-                    </table>
-                </section>
-                <section id="education">
-                    <table class="education">
-                        <h2>Education</h2>
-                        <tbody>
-                            <tr>
-                                <td>Computer Science Program <br> Fort Hays State University</td>
-                                <td class="year">2023 - Present</td>
-                            </tr>
-                            <tr>
-                                <td>Front-End Development <br> Beetroot Academy</td>
-                                <td class="year">2023 - Present</td>
-                            </tr>
-                            <tr>
-                                <td>Biomedical Engineering Program <br> Wichita State University</td>
-                                <td class="year">2011 - 2015</td>
-                            </tr>
-                        </tbody>
-                </section>
-            </div>
-            <div id="middle-right">
-                <section class="projects">
-                    <h2>Projects</h2>
-                    <ul id="projects">
-                        <li><a href=""></a>I did a thing</li>
-                        <li><a href=""></a>I did another thing</li>
-                        <li><a href=""></a>&#128683; <i><sub>Redacted by McCoffee AntiVirus</sub></i></li>
-                    </ul>
-                </section>
-            </div>
-            <div id="bottom-left">
-                <figure> <img src="./images/kirby_computer.jpg" alt="poor kirby :\(">
-                    <figcaption>...</figcaption>
-                </figure>
-            </div>
-            <div id="bottom-right">
-                <a href="">Are you gonna let this link stay blue?</a>
-            </div>
-        </div>
+      <div class="main-container">
+        <section class="left-main">
+          <h1>Hello World!</h1>
+          <p><i>Currently studying front-end development</i></p>
+          <label for="study">Course progress:</label>
+          <meter id="study-progress" value="22" min="0" max="55">40%</meter>
+          <p>Let me introduce myself through this page &#128522;</p>
+          <h3>Skills</h3>
+          <ul id="skills-list">
+            <li>Client relationship building</li>
+            <li>Large scale project planning</li>
+            <li>Workflow coordination</li>
+            <li>Social media management</li>
+            <li>Multilingual - English and Swedish</li>
+          </ul>
+          <hr />
+          <h3>Achievements</h3>
+          <dl id="achievements-list">
+            <dt>Upptech Framtiden Scholarship Recipient</dt>
+            <dd>2023 - Bredband2 and Beetroot Academy</dd>
+            <dt>Dean's Honor Roll in Engineering</dt>
+            <dd>2013 - Wichita State University</dd>
+            <dt>Kansas IDeA Network of Biomed Research Scholar</dt>
+            <dd>2013 - Wichita State University</dd>
+          </dl>
+        </section>
+      </div>
+      <section class="right-main">
+        <table>
+          <h2>Work Experience</h2>
+          <tbody>
+            <tr>
+              <td>
+                Fiber technician <br />
+                Borlänge AB
+              </td>
+              <td>August 2019 - Present</td>
+            </tr>
+            <tr>
+              <td>
+                Personal Assistant <br />
+                Säters Kommun
+              </td>
+              <td>June 2018 - August 2019</td>
+            </tr>
+            <tr>
+              <td>
+                Logistics Team Member <br />
+                Target Corporation
+              </td>
+              <td>October 2017 - April 2018</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Education</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Computer Science Program <br />
+                Fort Hays State University
+              </td>
+              <td>2023 - Present</td>
+            </tr>
+            <tr>
+              <td>
+                Front-End Development <br />
+                Beetroot Academy
+              </td>
+              <td>2023 - Present</td>
+            </tr>
+            <tr>
+              <td>
+                Biomedical Engineering Program <br />
+                Wichita State University
+              </td>
+              <td>2011 - 2015</td>
+            </tr>
+          </tbody>
+        </table>
+        <article>
+          <h2>Projects</h2>
+          <ul>
+            <li><a href=""></a>I did a thing</li>
+            <li><a href=""></a>I did another thing</li>
+            <li>
+              <a href=""></a>&#128683;
+              <i><sub>Redacted by some AntiVirus</sub></i>
+            </li>
+          </ul>
+        </article>
+        <aside class="bottom-right">
+          <figure>
+            <img src="./images/kirby_computer.jpg" alt="kirby can't code" />
+          </figure>
+          <figure>
+            <img src="./images/insertion_sort.gif" alt="insertion sort" />
+          </figure>
+          <a href="">Are you gonna let this link stay blue?</a>
+        </aside>
+      </section>
     </main>
     <footer>
-        <p>&copy; All Rights Relinquished</p>
+      <p>&copy; All Rights Researched 2024</p>
     </footer>
-</body>
+  </body>
 </html>

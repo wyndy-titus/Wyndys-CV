@@ -1,9 +1,12 @@
 {
-  "editor.fontFamily": "'Fira Code'",
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono'",
   "files.autoSave": "onWindowChange",
   "editor.fontLigatures": true,
   "editor.fontVariations": true,
   "css.format.braceStyle": "expand",
   "html.format.enable": true,
-  "html.format.contentUnformatted": ""
+  "html.format.contentUnformatted": "",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
