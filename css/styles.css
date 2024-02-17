@@ -111,10 +111,26 @@ td {
   font-family: "Saira Semi Condensed", sans-serif;
 }
 
-.projects ul {
-  display: inline-block;
-  text-indent: -1.5em;
+.projects li {
+  display: grid;
+  grid-template-columns: auto;
+  text-indent: -22px;
   list-style-type: none;
+}
+a[href*="replit"]:hover {
+  color: #fc9cf6;
+  text-decoration: none;
+}
+
+a[href*="forbidden"]:hover {
+  color: #ecf71e;
+  text-decoration: none;
+}
+
+#virus:hover {
+  color: red;
+  font-size: 11px;
+  line-height: 200%;
 }
 
 .bottom-right {
