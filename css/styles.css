@@ -4,7 +4,7 @@
 
 .header-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-auto-rows: min-content;
   gap: 10px;
   color: seashell;
@@ -18,29 +18,24 @@
 
 .header-container > * {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
-img[src$="input.gif"] {
-  width: auto;
-  height: fit-content;
-}
-
-img[src$="2023.jpg"] {
-  width: 12vw;
-  border-radius: 15px;
+img[src$="pt.gif"] {
+  height: 30vh;
+  padding-left: 15px;
 }
 
 .header-container blockquote {
-  width: 390px;
+  width: 440px;
   border: rgb(85, 98, 110) 10px outset;
   background-color: rgba(74, 102, 121, 0.7);
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Chakra Petch", sans-serif;
   text-align: left;
   line-height: 140%;
-  padding: 5px;
+  padding: 10px;
 }
 
 /* Navigation bar */
@@ -117,9 +112,31 @@ td {
   text-indent: -22px;
   list-style-type: none;
 }
+a[href*="replit"]:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a[href*="replit"]:visited {
+  color: #000000;
+  text-decoration: underline;
+}
+
 a[href*="replit"]:hover {
   color: #fc9cf6;
   text-decoration: none;
+}
+
+a[href*="forbidden"]:link {
+  font-size: 9px;
+  color: #000000;
+  text-decoration: none;
+}
+
+a[href*="forbidden"]:visited {
+  font-size: 9px;
+  color: #000000;
+  text-decoration: underline;
 }
 
 a[href*="forbidden"]:hover {
@@ -127,8 +144,8 @@ a[href*="forbidden"]:hover {
   text-decoration: none;
 }
 
-#virus:hover {
-  color: red;
+#virus {
+  color: rgb(221, 9, 9);
   font-size: 11px;
   line-height: 200%;
 }
@@ -144,9 +161,19 @@ a[href*="forbidden"]:hover {
   height: 120px;
 }
 
+a[href*="badhtml.com"]:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+a[href*="badhtml.com"]:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
 a[href*="badhtml.com"]:hover {
-  color: rgb(151, 11, 11);
-  text-decoration: none;
+  color: red;
+  text-decoration: underline;
 }
 
 footer {
