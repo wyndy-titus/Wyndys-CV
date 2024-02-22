@@ -1,5 +1,5 @@
 Add the prettier extension, that way you will avoid errors.
-&#10004;<span style="color:lightsteelblue">Sorry! I had it enabled in "User" but not "Workspace".</span>
+&#10004; //  **Sorry! I had it enabled in "User" but not "Workspace".**
 
 <i>Three errors to fix on your page:</i>
 Line 47 need to remove the quotes
@@ -23,5 +23,5 @@ When you ahve a list (ul, ol or dl) usually it is good to name it \*\*\*\*-list,
 Go over the names, in the meter tag for id it will be good to be more descriptive, for example study-progress.
 &#10004;
 
-The bigger blocks of code in you main which are encapsulate by a div can be replaced by section or article. In the header I would suggest using headers instead of p in order for your file to be sematically correct. In css try to use more classes as selectors and avoid inline styles
-<span style="color:lightsteelblue">I refactored this branch a little bit, but I will save the extensive refactorings for the later branches. This repo has a few more branches, but I'm at a roadblock and want to shift focus to another page for homework.</span>
+The bigger blocks of code in you main which are encapsulate by a div can be replaced by section or article. In the header I would suggest using headers instead of p in order for your file to be sematically correct. In css try to use more classes as selectors and avoid inline styles  
+  //  **I refactored this branch a little bit, but I will save the extensive refactorings for the later branches. This repo has a few more branches, but I'm at a roadblock and want to shift focus to another page for homework.**
